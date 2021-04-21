@@ -18,7 +18,7 @@ public class MainControle {
         model.addAttribute("real", real);
         model.addAttribute("cotacao", cotacao);
         model.addAttribute( "dolar", dolar);
-        model.addAttribute("formulario", new Formulario());
+        model.addAttribute("formulario",new Formulario());
         model.addAttribute("formulario2",new Formulario2());
         return "index";
     }

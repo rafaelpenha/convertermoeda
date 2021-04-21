@@ -1,0 +1,27 @@
+.conteiner{
+ display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin:10%;
+    background-color: red;
+}
+.entrada{
+     padding:10px;
+    font-size:25px;
+    width: 60px;
+    text-align: right;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.botao{
+    padding:10px;
+    font-size:15px;
+    width: 60px;
+    text-align: right;
+    border-radius: 10px;
+}
+.pp{
+font-size:25px;
+
+}
