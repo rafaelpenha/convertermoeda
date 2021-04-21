@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>conversao</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+
+<div>
+    <h1>converter moedas</h1>
+    <div>
+    <h1>De real para dolar</h1>
+    <form action="/enviar" method="post" th:object="${formulario}">
+    <input class="entrada" type="text" th:field="*{valor}"/><input type="submit" class="botao" > reais sao US$<span th:text="${dolar}"></span> dolares.
+    </form>
+    </div>
+
+    <div>
+    <h1>de dolar para real</h1>
+    <form action="/enviar2" method="post" th:object="${formulario2}">
+    <input class="entrada2" type="text" th:field="*{valor2}"/><input type="submit" class="botao2" > dolares sao R$<span th:text="${real}"></span> reais.
+    </form>
+    </div>
+</div>
+
+</body>
+</html>
